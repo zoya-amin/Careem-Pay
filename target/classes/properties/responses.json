@@ -1,0 +1,390 @@
+{
+
+  "EntertainmentVoucher.GetAllVoucherExpectedResponse": {
+    "success": true,
+    "data": {
+      "brands": [
+        {
+          "name": "Steam",
+          "description": {
+            "short": "The ultimate online games platform",
+            "long": "Get instant access to over 4,000 games from action to indie and everything in-between. Meet new people, join game groups, form clans, chat in-game and more!\r\nSteam Gift Cards can be used on Steam to buy games, software, hardware, and more.",
+            "title": "Thousands of your favourite games"
+          },
+          "images": {
+            "logo": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/icon/steam",
+            "banner": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/banner/steam"
+          },
+          "stores": [
+            {
+              "name": "AE",
+              "description": {
+                "short": "The ultimate online games platform",
+                "long": "This voucher is valid for UAE stores only\r\nGet instant access to over 4,000 games from action to indie and everything in-between. Meet new people, join game groups, form clans, chat in-game and more!\r\nSteam Gift Cards can be used on Steam to buy games, software, hardware, and more.",
+                "title": "Thousands of your favourite games"
+              },
+              "images": {
+                "logo": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/icon/steam",
+                "banner": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/banner/steam"
+              },
+              "redemptionInformation": "\n1. Login to your account on [store.steampowered.com](https://store.steampowered.com/).\r\n2. Go to your account, then click \"Redeem a Steam Wallet Code\".\r\n3. Enter the code and press \"Redeem\".",
+              "products": [
+                {
+                  "name": "Steam AE",
+                  "description": {
+                    "short": "The ultimate online games platform",
+                    "long": "This voucher is valid for UAE stores only\r\nGet instant access to over 4,000 games from action to indie and everything in-between. Meet new people, join game groups, form clans, chat in-game and more!\r\nSteam Gift Cards can be used on Steam to buy games, software, hardware, and more.",
+                    "title": "Thousands of your favourite games"
+                  },
+                  "images": {
+                    "logo": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/icon/steam",
+                    "banner": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/banner/steam"
+                  },
+                  "skucode": "Z9AEAE24215",
+                  "validityPeriod": null,
+                  "price": {
+                    "chargeable": {
+                      "list": {
+                        "value": 4000,
+                        "currency": "AED",
+                        "exponent": 2
+                      },
+                      "sale": {
+                        "value": 4000,
+                        "currency": "AED",
+                        "exponent": 2
+                      },
+                      "fees": [],
+                      "tax": [],
+                      "discountText": ""
+                    },
+                    "receivable": {
+                      "value": 4000,
+                      "currency": "AED",
+                      "exponent": 2
+                    },
+                    "receivableExcludingTax": {
+                      "value": 4000,
+                      "currency": "AED",
+                      "exponent": 2
+                    }
+                  }
+                },
+                {
+                  "name": "Steam AE",
+                  "description": {
+                    "short": "The ultimate online games platform",
+                    "long": "This voucher is valid for UAE stores only\r\nGet instant access to over 4,000 games from action to indie and everything in-between. Meet new people, join game groups, form clans, chat in-game and more!\r\nSteam Gift Cards can be used on Steam to buy games, software, hardware, and more.",
+                    "title": "Thousands of your favourite games"
+                  },
+                  "images": {
+                    "logo": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/icon/steam",
+                    "banner": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/banner/steam"
+                  },
+                  "skucode": "Z9AEAE17996",
+                  "validityPeriod": null,
+                  "price": {
+                    "chargeable": {
+                      "list": {
+                        "value": 5000,
+                        "currency": "AED",
+                        "exponent": 2
+                      },
+                      "sale": {
+                        "value": 5000,
+                        "currency": "AED",
+                        "exponent": 2
+                      },
+                      "fees": [],
+                      "tax": [],
+                      "discountText": ""
+                    },
+                    "receivable": {
+                      "value": 5000,
+                      "currency": "AED",
+                      "exponent": 2
+                    },
+                    "receivableExcludingTax": {
+                      "value": 5000,
+                      "currency": "AED",
+                      "exponent": 2
+                    }
+                  }
+                },
+                {
+                  "name": "Steam AE",
+                  "description": {
+                    "short": "The ultimate online games platform",
+                    "long": "This voucher is valid for UAE stores only\r\nGet instant access to over 4,000 games from action to indie and everything in-between. Meet new people, join game groups, form clans, chat in-game and more!\r\nSteam Gift Cards can be used on Steam to buy games, software, hardware, and more.",
+                    "title": "Thousands of your favourite games"
+                  },
+                  "images": {
+                    "logo": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/icon/steam",
+                    "banner": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/banner/steam"
+                  },
+                  "skucode": "Z9AEAE32499",
+                  "validityPeriod": null,
+                  "price": {
+                    "chargeable": {
+                      "list": {
+                        "value": 7500,
+                        "currency": "AED",
+                        "exponent": 2
+                      },
+                      "sale": {
+                        "value": 7500,
+                        "currency": "AED",
+                        "exponent": 2
+                      },
+                      "fees": [],
+                      "tax": [],
+                      "discountText": ""
+                    },
+                    "receivable": {
+                      "value": 7500,
+                      "currency": "AED",
+                      "exponent": 2
+                    },
+                    "receivableExcludingTax": {
+                      "value": 7500,
+                      "currency": "AED",
+                      "exponent": 2
+                    }
+                  }
+                },
+                {
+                  "name": "Steam AE",
+                  "description": {
+                    "short": "The ultimate online games platform",
+                    "long": "This voucher is valid for UAE stores only\r\nGet instant access to over 4,000 games from action to indie and everything in-between. Meet new people, join game groups, form clans, chat in-game and more!\r\nSteam Gift Cards can be used on Steam to buy games, software, hardware, and more.",
+                    "title": "Thousands of your favourite games"
+                  },
+                  "images": {
+                    "logo": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/icon/steam",
+                    "banner": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/banner/steam"
+                  },
+                  "skucode": "Z9AEAE65554",
+                  "validityPeriod": null,
+                  "price": {
+                    "chargeable": {
+                      "list": {
+                        "value": 10000,
+                        "currency": "AED",
+                        "exponent": 2
+                      },
+                      "sale": {
+                        "value": 10000,
+                        "currency": "AED",
+                        "exponent": 2
+                      },
+                      "fees": [],
+                      "tax": [],
+                      "discountText": ""
+                    },
+                    "receivable": {
+                      "value": 10000,
+                      "currency": "AED",
+                      "exponent": 2
+                    },
+                    "receivableExcludingTax": {
+                      "value": 10000,
+                      "currency": "AED",
+                      "exponent": 2
+                    }
+                  }
+                },
+                {
+                  "name": "Steam AE",
+                  "description": {
+                    "short": "The ultimate online games platform",
+                    "long": "This voucher is valid for UAE stores only\r\nGet instant access to over 4,000 games from action to indie and everything in-between. Meet new people, join game groups, form clans, chat in-game and more!\r\nSteam Gift Cards can be used on Steam to buy games, software, hardware, and more.",
+                    "title": "Thousands of your favourite games"
+                  },
+                  "images": {
+                    "logo": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/icon/steam",
+                    "banner": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/banner/steam"
+                  },
+                  "skucode": "Z9AEAE93858",
+                  "validityPeriod": null,
+                  "price": {
+                    "chargeable": {
+                      "list": {
+                        "value": 20000,
+                        "currency": "AED",
+                        "exponent": 2
+                      },
+                      "sale": {
+                        "value": 20000,
+                        "currency": "AED",
+                        "exponent": 2
+                      },
+                      "fees": [],
+                      "tax": [],
+                      "discountText": ""
+                    },
+                    "receivable": {
+                      "value": 20000,
+                      "currency": "AED",
+                      "exponent": 2
+                    },
+                    "receivableExcludingTax": {
+                      "value": 20000,
+                      "currency": "AED",
+                      "exponent": 2
+                    }
+                  }
+                },
+                {
+                  "name": "Steam AE",
+                  "description": {
+                    "short": "The ultimate online games platform",
+                    "long": "This voucher is valid for UAE stores only\r\nGet instant access to over 4,000 games from action to indie and everything in-between. Meet new people, join game groups, form clans, chat in-game and more!\r\nSteam Gift Cards can be used on Steam to buy games, software, hardware, and more.",
+                    "title": "Thousands of your favourite games"
+                  },
+                  "images": {
+                    "logo": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/icon/steam",
+                    "banner": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/banner/steam"
+                  },
+                  "skucode": "Z9AEAE42272",
+                  "validityPeriod": null,
+                  "price": {
+                    "chargeable": {
+                      "list": {
+                        "value": 40000,
+                        "currency": "AED",
+                        "exponent": 2
+                      },
+                      "sale": {
+                        "value": 40000,
+                        "currency": "AED",
+                        "exponent": 2
+                      },
+                      "fees": [],
+                      "tax": [],
+                      "discountText": ""
+                    },
+                    "receivable": {
+                      "value": 40000,
+                      "currency": "AED",
+                      "exponent": 2
+                    },
+                    "receivableExcludingTax": {
+                      "value": 40000,
+                      "currency": "AED",
+                      "exponent": 2
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "EntertainmentVoucher.VoucherInvoice.40AED": {
+    "success": true,
+    "data": {
+      "invoiceId": "3caa7186-6578-4ce9-9331-bd689515ef88",
+      "invoiceValue": {
+        "value": 4000,
+        "currency": "AED",
+        "exponent": 2
+      },
+      "orderId": "c869630f-c100-4a5b-a087-fb76c4ffdfcd"
+    }
+  },
+  "EntertainmentVoucher.purchaseVoucher.40AED": {
+    "id": "c4609cd1-f869-450c-895c-5e6481592d0c",
+    "invoiceId": "b277658d-5a8a-4519-bfcb-6fb5b60f0409",
+    "status": "Success",
+    "createdAt": "2020-04-01T07:07:29.114Z",
+    "total": {
+      "amount": 4000,
+      "currency": "AED"
+    },
+    "source": "29873068",
+    "type": "Purchase",
+    "tags": {
+      "voucherStore": {
+        "type": "STRING",
+        "value": "AE"
+      },
+      "orderId": {
+        "type": "STRING",
+        "value": "2395f6de-b847-4765-8427-6f069a10e6b8"
+      },
+      "promoCode": {
+        "type": "STRING",
+        "value": ""
+      },
+      "source": {
+        "type": "STRING",
+        "value": "ENTERTAINMENT_VOUCHERS"
+      },
+      "voucherBrand": {
+        "type": "STRING",
+        "value": "Steam"
+      },
+      "voucherCode": {
+        "type": "STRING",
+        "value": "Z9AEAE24215"
+      }
+    }
+  },
+  "EntertainmentVoucher.getOrder":{
+  "success": true,
+  "data": {
+    "orderId": "2395f6de-b847-4765-8427-6f069a10e6b8",
+    "invoiceId": null,
+    "invoiceStatus": null,
+    "orderStatus": "Completed",
+    "voucherCode": "001195195196",
+    "voucherBrand": "Steam",
+    "voucherStore": "AE",
+    "voucherProduct": {
+      "name": null,
+      "description": {
+        "short": "The ultimate online games platform",
+        "long": "Get instant access to over 4,000 games from action to indie and everything in-between. Meet new people, join game groups, form clans, chat in-game and more!\r\nSteam Gift Cards can be used on Steam to buy games, software, hardware, and more.",
+        "title": "Thousands of your favourite games"
+      },
+      "images": {
+        "logo": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/icon/steam",
+        "banner": "https://careem-pay-integration.s3-eu-west-1.amazonaws.com/entertainmentvouchers/steam/banner/steam"
+      },
+      "skucode": "Z9AEAE24215",
+      "validityPeriod": null,
+      "price": {
+        "chargeable": {
+          "list": {
+            "value": 4000,
+            "currency": "AED",
+            "exponent": 2
+          },
+          "sale": {
+            "value": 4000,
+            "currency": "AED",
+            "exponent": 2
+          },
+          "fees": [],
+          "tax": [],
+          "discountText": ""
+        },
+        "receivable": {
+          "value": 4000,
+          "currency": "AED",
+          "exponent": 2
+        },
+        "receivableExcludingTax": {
+          "value": 4000,
+          "currency": "AED",
+          "exponent": 2
+        }
+      }
+    },
+    "redemptionMechanism": "\n1. Login to your account on [store.steampowered.com](https://store.steampowered.com/).\r\n2. Go to your account, then click \"Redeem a Steam Wallet Code\".\r\n3. Enter the code and press \"Redeem\".",
+    "redemptionUrl": "https://store.steampowered.com/"
+  }
+}
+}
