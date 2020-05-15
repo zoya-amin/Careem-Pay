@@ -10,16 +10,21 @@ import static io.restassured.RestAssured.given
 public class ApiHelper {
     static String HEADER_PROPERTY_FILE = "header.properties"
 
-    public static Response getList(List Headers, String endpoint) {
-        return givenConfig(Headers).log().all().
+    public static Response getList(Map Headers, String endpoint) {
+        return givenConfig(Headers).log().everything().
                 when().
                 get(UrlBuilder.getApiUrlForEndPoint(endpoint));
     }
 
-    public static Response postDetails(List headers, String payload, String endpointName) {
+    public static Response getListConsumer(Map Headers, String endpoint) {
+        return givenConfig(Headers).log().everything().
+                when().
+                get(UrlBuilder.getApiUrlForConsumerEndPoint(endpoint));
+    }
+
+    public static Response postDetails(Map headers, String payload, String endpointName) {
         return givenConfig(headers).log().all().
-//                body(gson().toJson(payload)).
-        body(payload).
+                body(payload).
                 when().
                 post(UrlBuilder.getApiUrlForEndPoint(endpointName))
     }
@@ -50,22 +55,32 @@ public class ApiHelper {
 //    }
 
     // header reading from Global variable file
-    protected static RequestSpecification givenConfig(List<String> keys) {
-        RestAssured.useRelaxedHTTPSValidation();
-        Map<String, String> requestHeaders = new HashMap<>();
-        for (String key : keys) {
-            switch (key) {
-                case "Authorization":
-                    requestHeaders.put(key, GlobalVariables.authorization);
-                    break;
-                case "X-Idempotency-Key":
-                    requestHeaders.put(key,CommonMethods.generateRandomString());
-                    break;
-            }
+//    protected static RequestSpecification givenConfig(List<String> keys) {
+//        RestAssured.useRelaxedHTTPSValidation();
+//        Map<String, String> requestHeaders = new HashMap<>();
+//        for (String key : keys) {
+//            switch (key) {
+//                case "Authorization":
+//                    requestHeaders.put(key, GlobalVariables.authorization);
+//                    break;
+//                case "X-Idempotency-Key":
+//                    requestHeaders.put(key,CommonMethods.generateRandomString());
+//                    break;
+//            }
+//
+//        }
+//        requestHeaders.put("Content-Type", "application/json;charset=UTF-8")
+//        return given().headers(requestHeaders)
+//    }
 
-        }
-        requestHeaders.put("Content-Type", "application/json;charset=UTF-8")
-        return given().headers(requestHeaders)
+
+    protected static RequestSpecification givenConfig(Map headers) {
+        String authToken = headers.get("authorization")
+        headers.remove("authorization");
+        RestAssured.useRelaxedHTTPSValidation();
+        headers.put("Content-Type", "application/json;charset=UTF-8")
+        return given().auth().oauth2(authToken).headers(headers)
     }
+
 
 }

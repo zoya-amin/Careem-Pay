@@ -11,6 +11,12 @@ class UrlBuilder {
         return createApiUrl(endpoint);
     }
 
+    public static URL getApiUrlForConsumerEndPoint(String endpoint) {
+        Prop.loadPropertiesFile(ENDPOINT_PROPERTIES);
+        basePath = new URL(Prop.getProp("baseUrlConsumer"));
+        return createApiUrl(endpoint);
+    }
+
     public static URL createApiUrl(String endpoint) {
         try {
             return new URL(basePath.getProtocol(), basePath.getHost(), basePath.getPort(), endpoint);
@@ -18,6 +24,8 @@ class UrlBuilder {
             throw new RuntimeException(e);
         }
     }
+
+
 
 
 }
