@@ -95,4 +95,8 @@ class CommonMethods {
 
     }
 
+
+    static String replaceEndPointBracesWith(String endpoint, value){
+        return endpoint.replaceAll("(\\{.*\\})", value);
+    }
 }
